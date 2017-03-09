@@ -1,0 +1,29 @@
+<ion-content padding>
+  <ion-card>
+  <ion-card-content>
+    <p text-center center padding>Es-tu prêt à trouver un stage ?</p>
+    <p>Outils utiles</p>
+    <ion-list>
+
+    <button [navPush]="ArchivesPage" ion-item >
+      <ion-icon name="archive" item-left></ion-icon>
+      Archives de ma section
+    </button>
+
+    <button [navPush]="TutorielPage" ion-item>
+      <ion-icon name="bookmarks" item-left></ion-icon>
+      Tutotiels
+    </button>
+
+    <button ion-item>
+      <ion-icon name="list-box" item-left></ion-icon>
+      Fait ton cv
+    </button>
+
+  </ion-list>
+  <p text-center padding>Fais tes recherches</p>
+  <ion-icon  [navPush]="RecherchePage" name="arrow-dropdown-circle"></ion-icon>
+  </ion-card-content>
+
+</ion-card>
+</ion-content>

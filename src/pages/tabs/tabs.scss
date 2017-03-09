@@ -1,0 +1,17 @@
+
+page-tabs {
+  .tabs-md .tab-button[aria-selected="true"] .tab-button-icon
+  {
+    color: #FF6666;
+  }
+  a
+  {
+    color: #FF6666;
+  }
+ .tabs-md .tab-button[aria-selected="true"] .tab-button-icon{
+   color: #FE6847;
+ }
+ .tabs-md .tab-button[aria-selected="true"] .tab-button-text{
+   color: #FE6847;
+ }
+}
